@@ -1,0 +1,7 @@
+
+CREATE TABLE IF NOT EXISTS voter (
+  user INT,
+  oeuvre VARCHAR(50),
+  registration DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
